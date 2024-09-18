@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/a56dc29b-a0ec-4f6f-85fb-50df0680f80f/2f8ae902-8efe-49bb-9a91-51b6fcc8bf46/IN-en-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-position: center center;
+    height: 86vh;
+    position: relative;
+}
+
+.main .box {
+    height: 86vh;
+    width: 100%;
+    opacity: 0.56;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    padding: 14px;
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    width: 185px;
+}
+
+nav button {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.b1 {
+    border: 2px solid white;
+    background-color: black;
+    padding: 5px 10px;
+}
+
+
+.box1{
+    padding: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.p1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.p2{
+    padding: 18px;
+    font-size: 23px;
+}
+.p3{
+    padding: 10px;
+    font-size: 1.25rem;
+}
+.input{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+input[type=text], select {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(99, 94, 94);
+    border-radius: 0.25rem;
+    position: relative;
+    right: 14px;
+    width: 330px;
+    height: 40px;
+    padding: 10px;
+            color: rgb(158, 151, 151);
+            font-size: 16px;
+}
+.getbox{
+    border: 0px solid rgb(254, 248, 248);
+    border-radius: 0.25rem;
+    position: relative;
+    right: 4px;
+    background-color: red;
+    width: 210px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    
+}
+.getbox svg{
+    padding: 20px;
+}
+.boxline{
+
+    width: 100%;
+    height: 9px;
+   
+    opacity: 0.;
+    top: 0;
+    background-color: rgb(75, 70, 70);
+}
+
+.flex-container {
+    display: flex;
+    background-color: black;
+  }
+  
+  .flex-container > div {
+    background-color: black;
+    margin: 1px;
+    padding: 20px;
+    font-size: 30px;
+    width: 634px; 
+    height: 584px;
+    position: relative;
+    left: 180px;
+  }
+  .per{
+    font-size: 3rem;
+        font-weight: 900;
+        text-align: left;
+        position: relative;
+        top: 195px;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+  }
+  .per1{
+    position: relative;
+    text-align: left;
+    top: 210px;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .container {
+    position: relative;
+   
+}
+
+.container img {
+    position: relative;
+    z-index: 10;
+    width: 38vw;
+   
+}
+
+.container video {
+    position: absolute;
+    top: 125px;
+    right: 85px;
+   
+}
+
+.flex-container1 {
+    display: flex;
+    background-color: black;
+  }
+  
+  .flex-container1 > div {
+    background-color: black;
+    margin: 1px;
+    padding: 20px;
+    font-size: 30px;
+    width: 634px; 
+    height: 584px;
+    position: relative;
+    left: 180px;
+    
+  }
+  .con1{
+    position: relative;
+   left: 150px;
+   bottom: 137px;
+    border: 2px  solid gray;
+    width: 340px;
+    height: 100px;
+   border-radius: 10px;
+    background-color: black;
+  }
+  .con1 > div {
+    display: flex;
+}
+
+.flexbox1{
+    flex: 1;
+    width: 28px;
+    height: 100px;
+}
+.flexbox2 {
+    flex: 2;
+    width: 210px;
+    height: 100px;
+    border: 2px solid rgb(244, 238, 238);
+    position: relative;
+    left: 20px;
+}
+
+
+.flexbox1 img{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
